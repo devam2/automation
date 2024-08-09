@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== EXECUTING VERY HIGH PRIORITY TEST ==]]>
+    </line>
+    <line>
+      <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+    </line>
+    <line>
+      <![CDATA[
+== EXECUTING MEDIUM PRIORITY TEST ==]]>
+    </line>
+    <line>
+      <![CDATA[
+=== Your Test has been Passed Successfully ===
+]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-28T11:26:05 NPT" name="Default suite" finished-at="2024-07-28T11:26:14 NPT" duration-ms="9506">
+    <groups>
+    </groups>
+    <test started-at="2024-07-28T11:26:05 NPT" name="Default test" finished-at="2024-07-28T11:26:14 NPT" duration-ms="9506">
+      <class name="com.pacifichunt.tests.LoginAsEmployerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsEmployerTest@662b4c69]" started-at="2024-07-28T11:26:05 NPT" name="setUp" finished-at="2024-07-28T11:26:10 NPT" duration-ms="5202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyValidLoginAsEmployer()[pri:0, instance:com.pacifichunt.tests.LoginAsEmployerTest@662b4c69]" started-at="2024-07-28T11:26:10 NPT" name="verifyValidLoginAsEmployer" description="
+** User Story **
+== Verify Valid Login Scenario ==
+As a User, I should be able to Login.
+" finished-at="2024-07-28T11:26:10 NPT" duration-ms="549" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Keys to send should be a not null CharSequence]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.sendKeys(Unknown Source)
+at com.pacifichunt.pages.LoginPage.setValidCredentials(LoginPage.java:125)
+at com.pacifichunt.tests.LoginAsEmployerTest.verifyValidLoginAsEmployer(LoginAsEmployerTest.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[
+== EXECUTING VERY HIGH PRIORITY TEST ==]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoginAsEmployer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsEmployerTest@662b4c69]" started-at="2024-07-28T11:26:10 NPT" name="tearDown" finished-at="2024-07-28T11:26:11 NPT" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.pacifichunt.tests.LoginAsEmployerTest@662b4c69]" started-at="2024-07-28T11:26:11 NPT" name="setUp" finished-at="2024-07-28T11:26:13 NPT" duration-ms="2436" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== RUNNING ON CHROME BROWSER ==
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmptyUsernameAndEmptyPassword()[pri:2, instance:com.pacifichunt.tests.LoginAsEmployerTest@662b4c69]" started-at="2024-07-28T11:26:13 NPT" name="verifyEmptyUsernameAndEmptyPassword" description="
+** User Story **
+== Verify Empty Email &amp; Password Login Scenario ==
+As a User, I should be getting an Error When Empty Credentials are Provided.
+" finished-at="2024-07-28T11:26:14 NPT" duration-ms="870" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+== EXECUTING MEDIUM PRIORITY TEST ==]]>
+            </line>
+            <line>
+              <![CDATA[
+=== Your Test has been Passed Successfully ===
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsernameAndEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.pacifichunt.tests.LoginAsEmployerTest@662b4c69]" started-at="2024-07-28T11:26:14 NPT" name="tearDown" finished-at="2024-07-28T11:26:14 NPT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pacifichunt.tests.LoginAsEmployerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
